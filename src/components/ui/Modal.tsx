@@ -1,6 +1,6 @@
 import {createPortal} from "react-dom";
 import cn from "../../utils/cn";
-import {ChangeEvent, MouseEvent, ReactNode, createContext, useContext, useRef} from "react";
+import {MouseEvent, ReactNode, createContext, useContext, useRef} from "react";
 
 const ModalContext = createContext<TModalContext | null>(null);
 
